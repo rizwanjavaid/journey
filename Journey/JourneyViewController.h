@@ -1,0 +1,13 @@
+//
+//  JourneyViewController.h
+//  Journey
+//
+//  Created by Rizwan Javaid-Old on 7/19/13.
+//  Copyright (c) 2013 Rizwan Javaid. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface JourneyViewController : UIViewController
+
+@end
