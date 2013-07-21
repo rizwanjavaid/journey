@@ -22,6 +22,18 @@
 		2210820E179A08FF00ADC3E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2210820C179A08FF00ADC3E2 /* InfoPlist.strings */; };
 		22108210179A08FF00ADC3E2 /* JourneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210820F179A08FF00ADC3E2 /* JourneyTests.m */; };
 		222FA277179AE485002D9D63 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222FA276179AE485002D9D63 /* WelcomeViewController.m */; };
+		222FA340179BFD2D002D9D63 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222FA33F179BFD2D002D9D63 /* Parse.framework */; };
+		222FA34B179BFDCB002D9D63 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222FA341179BFDCB002D9D63 /* CFNetwork.framework */; };
+		222FA34C179BFDCB002D9D63 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222FA342179BFDCB002D9D63 /* CoreLocation.framework */; };
+		222FA34D179BFDCB002D9D63 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 222FA343179BFDCB002D9D63 /* libsqlite3.dylib */; };
+		222FA34E179BFDCB002D9D63 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 222FA344179BFDCB002D9D63 /* libz.1.1.3.dylib */; };
+		222FA34F179BFDCB002D9D63 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222FA345179BFDCB002D9D63 /* MobileCoreServices.framework */; };
+		222FA350179BFDCB002D9D63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222FA346179BFDCB002D9D63 /* QuartzCore.framework */; };
+		222FA351179BFDCB002D9D63 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222FA347179BFDCB002D9D63 /* Security.framework */; };
+		222FA352179BFDCB002D9D63 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222FA348179BFDCB002D9D63 /* Social.framework */; };
+		222FA353179BFDCB002D9D63 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222FA349179BFDCB002D9D63 /* StoreKit.framework */; };
+		222FA354179BFDCB002D9D63 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222FA34A179BFDCB002D9D63 /* SystemConfiguration.framework */; };
+		222FA358179BFE20002D9D63 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222FA357179BFE20002D9D63 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +68,19 @@
 		2210820F179A08FF00ADC3E2 /* JourneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JourneyTests.m; sourceTree = "<group>"; };
 		222FA275179AE485002D9D63 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
 		222FA276179AE485002D9D63 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		222FA33F179BFD2D002D9D63 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		222FA341179BFDCB002D9D63 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		222FA342179BFDCB002D9D63 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		222FA343179BFDCB002D9D63 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		222FA344179BFDCB002D9D63 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		222FA345179BFDCB002D9D63 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		222FA346179BFDCB002D9D63 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		222FA347179BFDCB002D9D63 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		222FA348179BFDCB002D9D63 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		222FA349179BFDCB002D9D63 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		222FA34A179BFDCB002D9D63 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		222FA356179BFE20002D9D63 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		222FA357179BFE20002D9D63 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +88,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222FA34B179BFDCB002D9D63 /* CFNetwork.framework in Frameworks */,
+				222FA34C179BFDCB002D9D63 /* CoreLocation.framework in Frameworks */,
+				222FA34D179BFDCB002D9D63 /* libsqlite3.dylib in Frameworks */,
+				222FA34E179BFDCB002D9D63 /* libz.1.1.3.dylib in Frameworks */,
+				222FA34F179BFDCB002D9D63 /* MobileCoreServices.framework in Frameworks */,
+				222FA350179BFDCB002D9D63 /* QuartzCore.framework in Frameworks */,
+				222FA351179BFDCB002D9D63 /* Security.framework in Frameworks */,
+				222FA352179BFDCB002D9D63 /* Social.framework in Frameworks */,
+				222FA353179BFDCB002D9D63 /* StoreKit.framework in Frameworks */,
+				222FA354179BFDCB002D9D63 /* SystemConfiguration.framework in Frameworks */,
 				221081E7179A08FF00ADC3E2 /* CoreGraphics.framework in Frameworks */,
 				221081E9179A08FF00ADC3E2 /* UIKit.framework in Frameworks */,
+				222FA340179BFD2D002D9D63 /* Parse.framework in Frameworks */,
 				221081E5179A08FF00ADC3E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,6 +140,17 @@
 		221081E3179A08FF00ADC3E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				222FA341179BFDCB002D9D63 /* CFNetwork.framework */,
+				222FA342179BFDCB002D9D63 /* CoreLocation.framework */,
+				222FA343179BFDCB002D9D63 /* libsqlite3.dylib */,
+				222FA344179BFDCB002D9D63 /* libz.1.1.3.dylib */,
+				222FA345179BFDCB002D9D63 /* MobileCoreServices.framework */,
+				222FA346179BFDCB002D9D63 /* QuartzCore.framework */,
+				222FA347179BFDCB002D9D63 /* Security.framework */,
+				222FA348179BFDCB002D9D63 /* Social.framework */,
+				222FA349179BFDCB002D9D63 /* StoreKit.framework */,
+				222FA34A179BFDCB002D9D63 /* SystemConfiguration.framework */,
+				222FA33F179BFD2D002D9D63 /* Parse.framework */,
 				221081E4179A08FF00ADC3E2 /* Foundation.framework */,
 				221081E6179A08FF00ADC3E2 /* CoreGraphics.framework */,
 				221081E8179A08FF00ADC3E2 /* UIKit.framework */,
@@ -115,6 +162,7 @@
 		221081EA179A08FF00ADC3E2 /* Journey */ = {
 			isa = PBXGroup;
 			children = (
+				222FA355179BFE10002D9D63 /* Libraries */,
 				221081F3179A08FF00ADC3E2 /* JourneyAppDelegate.h */,
 				221081F4179A08FF00ADC3E2 /* JourneyAppDelegate.m */,
 				221081F6179A08FF00ADC3E2 /* Main.storyboard */,
@@ -155,6 +203,15 @@
 				2210820C179A08FF00ADC3E2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		222FA355179BFE10002D9D63 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				222FA356179BFE20002D9D63 /* SWRevealViewController.h */,
+				222FA357179BFE20002D9D63 /* SWRevealViewController.m */,
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +314,7 @@
 			files = (
 				221081F1179A08FF00ADC3E2 /* main.m in Sources */,
 				222FA277179AE485002D9D63 /* WelcomeViewController.m in Sources */,
+				222FA358179BFE20002D9D63 /* SWRevealViewController.m in Sources */,
 				221081F5179A08FF00ADC3E2 /* JourneyAppDelegate.m in Sources */,
 				221081FB179A08FF00ADC3E2 /* JourneyViewController.m in Sources */,
 			);
@@ -381,6 +439,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Journey/Journey-Prefix.pch";
 				INFOPLIST_FILE = "Journey/Journey-Info.plist";
@@ -394,6 +456,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Journey/Journey-Prefix.pch";
 				INFOPLIST_FILE = "Journey/Journey-Info.plist";
