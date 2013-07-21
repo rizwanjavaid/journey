@@ -21,6 +21,7 @@
 		22108206179A08FF00ADC3E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221081E8179A08FF00ADC3E2 /* UIKit.framework */; };
 		2210820E179A08FF00ADC3E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2210820C179A08FF00ADC3E2 /* InfoPlist.strings */; };
 		22108210179A08FF00ADC3E2 /* JourneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2210820F179A08FF00ADC3E2 /* JourneyTests.m */; };
+		222FA277179AE485002D9D63 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 222FA276179AE485002D9D63 /* WelcomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2210820B179A08FF00ADC3E2 /* JourneyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JourneyTests-Info.plist"; sourceTree = "<group>"; };
 		2210820D179A08FF00ADC3E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2210820F179A08FF00ADC3E2 /* JourneyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JourneyTests.m; sourceTree = "<group>"; };
+		222FA275179AE485002D9D63 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		222FA276179AE485002D9D63 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				221081F3179A08FF00ADC3E2 /* JourneyAppDelegate.h */,
 				221081F4179A08FF00ADC3E2 /* JourneyAppDelegate.m */,
 				221081F6179A08FF00ADC3E2 /* Main.storyboard */,
+				222FA275179AE485002D9D63 /* WelcomeViewController.h */,
+				222FA276179AE485002D9D63 /* WelcomeViewController.m */,
 				221081F9179A08FF00ADC3E2 /* JourneyViewController.h */,
 				221081FA179A08FF00ADC3E2 /* JourneyViewController.m */,
 				221081FC179A08FF00ADC3E2 /* Images.xcassets */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				221081F1179A08FF00ADC3E2 /* main.m in Sources */,
+				222FA277179AE485002D9D63 /* WelcomeViewController.m in Sources */,
 				221081F5179A08FF00ADC3E2 /* JourneyAppDelegate.m in Sources */,
 				221081FB179A08FF00ADC3E2 /* JourneyViewController.m in Sources */,
 			);
@@ -455,6 +461,7 @@
 				22108215179A08FF00ADC3E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22108216179A08FF00ADC3E2 /* Build configuration list for PBXNativeTarget "JourneyTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +470,7 @@
 				22108218179A08FF00ADC3E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
